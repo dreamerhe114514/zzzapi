@@ -1,6 +1,6 @@
 <?php
 //读取文本
-$str = explode("\n", file_get_contents('https://api.dreamerhe.cn/pc.txt'));
+$str = explode("\n", file_get_contents('https://zzzapi.dreamerhe.cn/pc.txt'));
 $k = rand(0,count($str));
 $sina_img = str_re($str[$k]);
 
